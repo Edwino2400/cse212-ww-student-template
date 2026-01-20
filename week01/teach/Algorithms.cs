@@ -88,7 +88,7 @@ public static class Algorithms
 }
 
 
-///Algorithm1: O(n)
+//Algorithm1: O(n)
 
 //Algorithm2: O(n²)
 
