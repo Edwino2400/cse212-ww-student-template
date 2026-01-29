@@ -33,6 +33,9 @@ public class Maze
     public void MoveLeft()
     {
         // FILL IN CODE
+        var cell = _maze[(_x, _y)];
+        if (cell.left)
+            _x--;
     }
 
     /// <summary>
@@ -42,6 +45,9 @@ public class Maze
     public void MoveRight()
     {
         // FILL IN CODE
+        var cell = _maze[(_x, _y)];
+        if (cell.right)
+            _x++;
     }
 
     /// <summary>
@@ -51,6 +57,9 @@ public class Maze
     public void MoveUp()
     {
         // FILL IN CODE
+        var cell = _maze[(_x, _y)];
+        if (cell.up)
+            _y++;
     }
 
     /// <summary>
@@ -60,6 +69,9 @@ public class Maze
     public void MoveDown()
     {
         // FILL IN CODE
+        var cell = _maze[(_x, _y)];
+        if (cell.down)
+            _y--;
     }
 
     public string GetStatus()
