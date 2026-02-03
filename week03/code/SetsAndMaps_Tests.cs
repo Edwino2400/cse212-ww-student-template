@@ -2,8 +2,8 @@ using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 /// <summary>
-/// DO NOT MODIFY THIS FILE
-/// </summary>
+/// DO NOT MODIFY THIS 
+/// </summary
 
 [TestClass]
 public class FindPairsTests

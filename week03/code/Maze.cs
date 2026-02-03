@@ -53,7 +53,7 @@ public class Maze
     /// <summary>
     /// Check to see if you can move up.  If you can, then move.  If you
     /// can't move, throw an InvalidOperationException with the message "Can't go that way!".
-    /// </summary>
+    /// </summary
     public void MoveUp()
     {
         // FILL IN CODE
